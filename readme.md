@@ -7,7 +7,16 @@ written in Python. It is based on Flask, Pandoc, and Tufte CSS.
 
 You can browse the [live demo here][demo].
 
-## Quick install and run
+## Quick install and run (Debian Buster)
+
+Install dependencies:
+
+```sh
+apt install python-virtualenv python3 pandoc pandoc-sidenote
+npm i -g less
+```
+
+Also install `pandoc-crossref` from its home page (no package as of Debian Buster)
 
 To install athena:
 
